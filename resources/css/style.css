@@ -1,92 +1,160 @@
-body{
+body {
     background-color: lightgray;
     color: black;
     margin: 0;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
+
 /*header*/
-header{
+header {
     position: fixed;
     z-index: 999;
     height: 64px;
     width: 100%;
-    background-color:white;
+    background-color: white;
     text-align: center;
 }
 
 
-header .logo{
+header .logo {
     display: inline-flex;
     padding-left: 24px;
     height: 100%;
 }
 
-.logo .header-logo{
+.logo .header-logo {
     height: 70px;
 }
 
-.logo h1{
+.logo h1 {
     height: 32px;
 }
 
-.logo h1 .lgt-gray{
+.logo h1 .lgt-gray {
     color: lightgray;
 }
 
-nav{
+nav {
     text-align: right;
     margin-right: 24px;
     flex-grow: 1;
 }
 
-header nav span{
+header nav span {
     display: inline-block;
     padding: 20px 16px;
     font-size: 20px;
 }
 
 /*Main Section*/
-main{
+main {
     padding-top: 65px;
 }
 
-.learn-something{
-align-items: center;
+/*Learn Something Section*/
+.learn-something {
+    align-items: center;
 }
 
-.learn-something img{
+.learn-something img {
     width: 60%;
     margin: 32px 24px;
 }
 
-.learn-something .learn-something-text{
+.learn-something .learn-something-text {
     flex-grow: 1;
     padding-left: 24px;
 }
 
-.learn-something-text h1{
+.learn-something-text h1 {
     font-size: 40px;
 }
 
-.learn-something-text h3{
-font-size: 20px;
+.learn-something-text h3 {
+    font-size: 20px;
 }
 
-.learn-something-text .start{
+.learn-something-text .start {
     color: white;
     background-color: gray;
     width: 40%;
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;
+}
+
+/*Keep Practicing Section*/
+.keep-practicing {
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    padding: 32px 0px; 
+}
+
+.section-1-practice {
+    width: 50%;
+    padding: 0px 3.33% 0px 3.33%;
+    background-color: lightgray;
+}
+
+.section-1-practice img {
+    width: 100%;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+
+.section-1-practice h1 {
+    margin: 0;
+    padding-bottom: 24px;
+    padding-top: 32px;
+}
+
+.section-1-practice .section-1-practice-footer{
+    margin-bottom: 16px;
+}
+
+.section-2-practice {
+    width: 40%;
+    margin-left: 3.33%;
+}
+
+.section-2-content {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: lightgray;
+}
+
+.section-2-content img {
+    height: auto;
+    width: 30%;
+   padding: 16px 0px 16px 16px;
+}
+
+.section-2-content-content {
+    width: 65%;
+    padding-left: 15px;
+}
+
+.section-2-content-content h2{
+    font-size: 26px;
+}
+
+.section-2-content-content p{
+    font-size: 19px;
+}
+
+.section-2-content-content .read-more{
+    color: blue;
 }
