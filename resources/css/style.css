@@ -1,5 +1,6 @@
 body{
-    background-color: gray;
+    background-color: lightgray;
+    color: black;
     margin: 0;
 }
 
@@ -11,8 +12,9 @@ body{
 
 a{
     text-decoration: none;
+    color: black;
 }
-
+/*header*/
 header{
     position: fixed;
     z-index: 999;
@@ -33,6 +35,10 @@ header .logo{
     height: 70px;
 }
 
+.logo h1{
+    height: 32px;
+}
+
 .logo h1 .lgt-gray{
     color: lightgray;
 }
@@ -46,5 +52,41 @@ nav{
 header nav span{
     display: inline-block;
     padding: 20px 16px;
+    font-size: 20px;
 }
 
+/*Main Section*/
+main{
+    padding-top: 65px;
+}
+
+.learn-something{
+align-items: center;
+}
+
+.learn-something img{
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.learn-something .learn-something-text{
+    flex-grow: 1;
+    padding-left: 24px;
+}
+
+.learn-something-text h1{
+    font-size: 40px;
+}
+
+.learn-something-text h3{
+font-size: 20px;
+}
+
+.learn-something-text .start{
+    color: white;
+    background-color: gray;
+    width: 40%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
