@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: white;
     color: black;
     margin: 0;
 }
@@ -13,6 +13,10 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+h1, h2, h3{
+    margin: 0;
 }
 
 /*header*/
@@ -38,6 +42,7 @@ header .logo {
 
 .logo h1 {
     height: 32px;
+    align-self: center;
 }
 
 .logo h1 .lgt-gray {
@@ -62,8 +67,13 @@ main {
 }
 
 /*Learn Something Section*/
+.learning{
+    background-color: lightgray;
+}
+
 .learn-something {
     align-items: center;
+    background-color: lightgray;
 }
 
 .learn-something img {
@@ -103,13 +113,13 @@ main {
 
 .section-1-practice {
     width: 50%;
-    padding: 0px 3.33% 0px 3.33%;
+    padding-right: 3.33%;
+    padding-left: 3.33%;
     background-color: lightgray;
 }
 
 .section-1-practice img {
     width: 100%;
-    padding-right: 16px;
     padding-top: 16px;
 }
 
@@ -157,4 +167,38 @@ main {
 
 .section-2-content-content .read-more{
     color: blue;
+}
+/*Courses Section*/
+.learning{
+background-color: lightgray;
+}
+
+.learning h2{
+    text-align: center;
+    padding: 32px 0px;
+    font-size: 42px;
+}
+
+.learning-lower-container{
+    padding: 0px 72px 32px 72px;
+}
+
+.courses-container{
+    width: 30%;
+    margin: 0px 32px 32px 0px;
+    background-color: white;
+}
+
+.courses-container img{
+    width: 100%;
+    height: auto;
+}
+
+.courses-container div{
+    padding: 16px 0px 24px 16px;
+}
+
+.courses-container div p{
+padding: 8px 0px;
+font-size: 18px;
 }
