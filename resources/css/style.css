@@ -201,6 +201,11 @@ main {
     padding: 16px 0px 24px 16px;
 }
 
+.courses-container div a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
 .courses-container div p {
     padding: 8px 0px;
     font-size: 18px;
@@ -234,12 +239,12 @@ main {
     margin-right: 2.5%;
 }
 
-.thesis-main-1 video{
+.thesis-main-1 video {
     padding-bottom: 24px;
     width: 100%;
 }
 
-.thesis-main-1 h2{
+.thesis-main-1 h2 {
     padding-bottom: 8px;
 }
 
@@ -248,27 +253,48 @@ main {
     height: auto;
 }
 
-.thesis-main-2 .thesis-main-2-children{
+.thesis-main-2 .thesis-main-2-children {
     display: inline-flex;
     width: 100%;
 }
 
-.thesis-main-2 .thesis-main-2-children:hover{
+.thesis-main-2 .thesis-main-2-children:hover {
     background-color: white;
 }
 
-.thesis-main-2 .thesis-main-2-children a:hover{
-    color: blue;
-    text-decoration: underline;
-}
-
-.thesis-main-2-children img{
+.thesis-main-2-children img {
     width: 35%;
     height: auto;
     padding: 16px 16px;
 }
 
-.thesis-main-2-children .thesis-main-2-children-container{
+.thesis-main-2-children .thesis-main-2-children-container {
     width: 65%;
     align-self: center;
+}
+
+/*footer*/
+footer {
+    justify-content: center;
+    width: 100%;
+    display: inline-flex;
+}
+
+footer p {
+    width: 40%;
+    padding-left: 5%;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+footer .footer-links {
+    width: 50%;
+    text-align: end;
+    padding-right: 5%;
+    padding-top: 16px;
+}
+
+.footer-links a {
+    padding-right: 10px;
+    font-size: 16px;
 }
