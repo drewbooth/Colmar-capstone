@@ -515,3 +515,13 @@ footer .footer-links {
     padding-right: 10px;
     font-size: 16px;
 }
+
+@media only screen and (max-width:350px) {
+    footer .footer-links {
+        display: none;
+    }
+
+    footer p {
+        width: 100%;
+    }
+}
