@@ -345,6 +345,10 @@ main {
     background-color: lightgray;
 }
 
+.learning .learning-mobile {
+    display: none;
+}
+
 .learning h2 {
     text-align: center;
     padding: 32px 0px;
@@ -378,6 +382,32 @@ main {
 .courses-container div p {
     padding: 8px 0px;
     font-size: 18px;
+}
+
+@media only screen and (max-width:750px) {
+    .learning-lower-container {
+        display: none;
+    }
+
+    .learning .learning-mobile {
+        display: block;
+        text-align: center;
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+
+    .learning-mobile p {
+        background-color: white;
+        padding: 16px 16px 24px 16px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    @media only screen and (max-width: 400px) {
+        .learning-mobile p {
+            font-size: 25px;
+        }
+    }
 }
 
 /*Thesis Section*/
@@ -440,6 +470,24 @@ main {
 .thesis-main-2-children .thesis-main-2-children-container {
     width: 65%;
     align-self: center;
+}
+
+@media only screen and (max-width:750px) {
+    .thesis .thesis-main-2 {
+        display: none;
+    }
+
+    .thesis .thesis-main-1 h2 {
+        display: none;
+    }
+
+    .thesis .thesis-main-1 p {
+        display: none;
+    }
+
+    .thesis .thesis-main-1 {
+        width: 100%;
+    }
 }
 
 /*footer*/
