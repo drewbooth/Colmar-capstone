@@ -292,6 +292,54 @@ main {
     color: blue;
 }
 
+@media only screen and (max-width: 760px) {
+    .section-1-practice {
+        display: none;
+    }
+
+    .section-2-practice {
+        width: 100%;
+        padding: 0;
+        margin: 16px;
+    }
+
+    .section-2-practice .section-2-content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-2-practice .section-2-content img {
+        width: 100%;
+        margin: 0px;
+        padding: 16px;
+    }
+
+    .section-2-practice .section-2-content .section-2-content-content {
+        width: 100%;
+        padding: 16px 16px 16px 16px;
+    }
+
+    .section-2-content-content h2 {
+        font-size: 40px;
+    }
+
+    .section-2-content-content p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .section-2-content-content h2 {
+        font-size: 30px;
+    }
+
+    .section-2-content-content p {
+        font-size: 17px;
+    }
+}
+
 /*Courses Section*/
 .learning {
     background-color: lightgray;
